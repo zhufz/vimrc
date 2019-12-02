@@ -381,3 +381,8 @@ function! VisualSelection(direction, extra_filter) range
     let @/ = l:pattern
     let @" = l:saved_reg
 endfunction
+
+imap jj <Esc>
+map <F3> :NERDTreeMirror<CR>
+map <F3> :NERDTreeToggle<CR>
+let NERDTreeWinPos="left"
