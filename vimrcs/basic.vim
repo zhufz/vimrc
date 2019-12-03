@@ -386,4 +386,5 @@ endfunction
 imap jj <Esc>
 map <F3> :NERDTreeMirror<CR>
 map <F3> :NERDTreeToggle<CR>
-let NERDTreeWinPos="left"
+
+set number
