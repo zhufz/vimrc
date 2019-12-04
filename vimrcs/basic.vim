@@ -387,7 +387,7 @@ imap jj <Esc>
 map <F3> :NERDTreeMirror<CR>
 map <F3> :NERDTreeToggle<CR>
 
-map <S-K> :tabp<CR>
+map <S-H> :tabp<CR>
 map <S-L> :tabn<CR>
-map <S-N> :tabnew<CR>
+map <S-C> :tabnew<CR>
 set number
