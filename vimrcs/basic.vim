@@ -386,6 +386,8 @@ endfunction
 imap jj <Esc>
 map <F3> :NERDTreeMirror<CR>
 map <F3> :NERDTreeToggle<CR>
-map <S-Left> :tabp<CR>
-map <S-Right> :tabn<CR>
+
+map <S-K> :tabp<CR>
+map <S-L> :tabn<CR>
+map <S-N> :tabnew<CR>
 set number
