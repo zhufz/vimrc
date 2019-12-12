@@ -391,3 +391,4 @@ map <S-H> :tabp<CR>
 map <S-L> :tabn<CR>
 map <S-C> :tabnew<CR>
 set number
+nnoremap <S-w> <c-w>
